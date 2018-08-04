@@ -50,7 +50,7 @@ for hari in range (0, enddate):
 tfidf=mf.fulltfidf(dateList,semesta)
 datasvm=pd.DataFrame(tfidf)
 
-# SVM Begin
+# SVM Begin 22222
 svm_linear='svm-minggu.sav'
 
 x,y=svm.SVCxy(tfidf,datasvm)
